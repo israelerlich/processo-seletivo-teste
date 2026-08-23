@@ -8,4 +8,6 @@ return Application::configure(basePath: dirname(__DIR__))
         api: __DIR__.'/../routes/api.php',
         health: '/up',
     )
+    ->withMiddleware()
+    ->withExceptions()
     ->create();
