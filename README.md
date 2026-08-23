@@ -138,7 +138,7 @@ Exemplo de resposta (JSON direto, sem wrapper `data`):
 
 ## Tempo gasto e partes mais difíceis
 
-TEMPO: 2 dias e 14 horas
+ 2 dias e 14 horas
 
 ### Ligar o Laravel ao servidor WebSocket
 
