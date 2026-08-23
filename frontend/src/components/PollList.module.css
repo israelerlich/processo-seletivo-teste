@@ -1,0 +1,40 @@
+.list {
+  display: grid;
+  gap: 8px;
+}
+
+.title {
+  margin: 0;
+  font-size: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  border: 1px solid #e4e7eb;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-size: 15px;
+  text-align: left;
+}
+
+.item:hover {
+  border-color: #4c6ef5;
+}
+
+.open {
+  color: #0b7285;
+  font-size: 13px;
+}
+
+.closed {
+  color: #a4292b;
+  font-size: 13px;
+}
+
+.empty {
+  color: #616e7c;
+}

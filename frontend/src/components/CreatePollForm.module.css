@@ -1,0 +1,75 @@
+.form {
+  display: grid;
+  gap: 12px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(31, 41, 51, 0.08);
+}
+
+.title {
+  margin: 0;
+  font-size: 20px;
+}
+
+.label {
+  display: grid;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #3e4c59;
+}
+
+.input {
+  padding: 10px 12px;
+  border: 1px solid #cbd2d9;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.optionRow {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.optionRow .input {
+  flex: 1;
+}
+
+.remove,
+.add {
+  border: none;
+  background: none;
+  color: #4c6ef5;
+  font-size: 13px;
+  padding: 4px;
+  justify-self: start;
+}
+
+.add:disabled {
+  color: #9aa5b1;
+  cursor: not-allowed;
+}
+
+.submit {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4c6ef5;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.submit:disabled {
+  background-color: #9aa5b1;
+  cursor: not-allowed;
+}
+
+.error {
+  margin: 0;
+  color: #a4292b;
+  font-size: 14px;
+}

@@ -1,0 +1,35 @@
+.results {
+  display: grid;
+  gap: 12px;
+}
+
+.total {
+  margin: 0;
+  color: #616e7c;
+  font-size: 14px;
+}
+
+.row {
+  display: grid;
+  gap: 6px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.track {
+  height: 12px;
+  border-radius: 999px;
+  background-color: #e4e7eb;
+  overflow: hidden;
+}
+
+.bar {
+  height: 100%;
+  border-radius: 999px;
+  background-color: #4c6ef5;
+  transition: width 400ms ease;
+}

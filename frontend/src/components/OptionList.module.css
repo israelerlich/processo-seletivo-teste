@@ -1,0 +1,29 @@
+.list {
+  display: grid;
+  gap: 8px;
+}
+
+.option,
+.voted {
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: 1px solid #cbd2d9;
+  background-color: #ffffff;
+  font-size: 15px;
+  text-align: left;
+}
+
+.option:hover:enabled {
+  border-color: #4c6ef5;
+}
+
+.voted {
+  border-color: #4c6ef5;
+  background-color: #edf2ff;
+  font-weight: 600;
+}
+
+.option:disabled,
+.voted:disabled {
+  cursor: not-allowed;
+}

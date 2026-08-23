@@ -1,0 +1,33 @@
+.card {
+  display: grid;
+  gap: 16px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(31, 41, 51, 0.08);
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back {
+  border: none;
+  background: none;
+  padding: 0;
+  color: #4c6ef5;
+  font-size: 14px;
+}
+
+.question {
+  margin: 0;
+  font-size: 22px;
+}
+
+.error {
+  margin: 0;
+  color: #a4292b;
+  font-size: 14px;
+}
